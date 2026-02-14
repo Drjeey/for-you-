@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You ❤️</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="petals-container"></div>
+
+    <div id="music-control" class="hidden">
+        <button id="music-btn">🎵 Pause</button>
+    </div>
+
+    <audio id="bg-music" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="overlay">
+        <div class="overlay-content">
+            <h1>Hey Mi Amore</h1>
+            <p>I have a story to tell you...</p>
+            <button id="start-button">Start the Story</button>
+        </div>
+    </div>
+
+    <div id="main-content" class="hidden">
+        
+        <section class="hero">
+            <h1 class="typewriter" id="typewriter-text"></h1>
+        </section>
+
+        <div class="timeline">
+            
+            <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <img src="assets/memory-1.jpeg" alt="Memory 1">
+                    <div class="caption">"My kind of chaos."</div>
+                </div>
+            </div>
+
+            <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <video controls playsinline>
+                        <source src="assets/video-1.mp4" type="video/mp4">
+                    </video>
+                    <div class="caption">You don’t even know how much this meant to me.”.</div>
+                </div>
+            </div>
+
+            <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <img src="assets/memory-2.jpeg" alt="Memory 2">
+                    <div class="caption">You on a simple Day 😂</div>
+                </div>
+            </div>
+
+             <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <video controls playsinline>
+                        <source src="assets/memory-3.jpeg" type="video/mp4">
+                    </video>
+                    <div class="caption">“Still laughing about this.”</div>
+                </div>
+            </div>
+
+            <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <img src="assets/memory-4.jpeg" alt="Memory 2">
+                    <div class="caption">Because you were Born I was lucky to meet you.</div>
+                </div>
+            </div>
+
+             <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <video controls playsinline>
+                        <source src="assets/video-2.mp4" type="video/mp4">
+                    </video>
+                    <div class="caption">“Nothing else mattered.”</div>
+                </div>
+            </div>
+
+            <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <img src="assets/memory-5.jpeg" alt="Memory 2">
+                    <div class="caption">“Proof that we’re us.”</div>
+                </div>
+            </div>
+
+             <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <video controls playsinline>
+                        <source src="assets/video-3.mp4" type="video/mp4">
+                    </video>
+                    <div class="caption">“This smile is my favorite place.”</div>
+                </div>
+            </div>
+
+            <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <img src="assets/memory-20.jpeg" alt="Memory 2">
+                    <div class="caption">“Unfairly pretty.”</div>
+                </div>
+            </div>
+
+             <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <video controls playsinline>
+                        <source src="assets/video-4.mp4" type="video/mp4">
+                    </video>
+                    <div class="caption">“This moment still feels warm.”</div>
+                </div>
+            </div>
+
+            <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <img src="assets/memory-7.jpeg" alt="Memory 2">
+                    <div class="caption">If I had to choose again, I’d still choose you.</div>
+                </div>
+            </div>
+
+             <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <video controls playsinline>
+                        <source src="assets/video-5.mp4" type="video/mp4">
+                    </video>
+                    <div class="caption">“This was a good day.”</div>
+                </div>
+            </div>
+
+            <div class="memory-card scroll-reveal">
+                <div class="polaroid">
+                    <img src="assets/memory-21.jpeg" alt="Memory 2">
+                    <div class="caption">"You gave me a beautiful bundle of joy"</div>
+                </div>
+            </div>
+
+            </div>
+
+        <section class="surprise-section">
+            <p>One last thing...</p>
+            <button id="surprise-btn">Click Me</button>
+            
+            <div id="hidden-message" class="hidden">
+                <img src="assets/memory-10.jpeg" class="final-photo" alt="Final Photo">
+                <h2>I Love You. ❤️</h2>
+                <p>Happy Valentine's Day. This is me, choosing you.</p>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
